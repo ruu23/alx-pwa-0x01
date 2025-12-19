@@ -8,7 +8,19 @@ export interface ButtonProps{
 }
 
 export interface MovieProps {
-    title: string;
-    posterImage: string; 
-    releaseYear: string;
+  title: string;
+  posterImage: string ;
+  releaseYear: string ;
+}
+
+export interface MoviesProps {
+  titleText: {
+    text: string;
+  };
+  primaryImage?: {
+    url: string;
+  };
+  releaseYear: {
+    year: string;
+  };
 }
